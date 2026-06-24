@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background: lightgoldenrodyellow;
+  font-family: Arial, sans-serif;
+  background-image: url("https://img.magnific.com/premium-photo/orange-alarm-clock-desk-lamp-notebook-with-pen-vibrant-green-background-modern-creative-workspace-concept-productivity-organization_1222051-4077.jpg?semt=ais_hybrid&w=740&q=80");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed; 
+   background-position: center center; 
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form button,
+.filter select {
+  padding: 10px;
+}
+
+.form button {
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px greenyellow;
+}
+
+.dashboard {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  min-width: 155px;
+  background: aliceblue;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #2196f3;
+  color: white;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
